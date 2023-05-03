@@ -7,14 +7,27 @@
   "targets": {
     ".NETCoreApp,Version=v6.0": {
       "WebApp-Test-1/1.0.0": {
+        "dependencies": {
+          "BuzLogic": "1.0.0"
+        },
         "runtime": {
           "WebApp-Test-1.dll": {}
+        }
+      },
+      "BuzLogic/1.0.0": {
+        "runtime": {
+          "BuzLogic.dll": {}
         }
       }
     }
   },
   "libraries": {
     "WebApp-Test-1/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "BuzLogic/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

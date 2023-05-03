@@ -7,4 +7,8 @@
     <RootNamespace>WebApp_Test_1</RootNamespace>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\BuzLogic\BuzLogic.csproj" />
+  </ItemGroup>
+
 </Project>

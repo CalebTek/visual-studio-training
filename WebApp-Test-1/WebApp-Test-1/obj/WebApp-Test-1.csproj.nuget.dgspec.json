@@ -4,6 +4,21 @@
     "C:\\Users\\HP\\OneDrive\\Documents\\Codes\\visual-studio-training\\WebApp-Test-1\\WebApp-Test-1\\WebApp-Test-1.csproj": {}
   },
   "projects": {
+    "C:\\Users\\HP\\OneDrive\\Documents\\Codes\\visual-studio-training\\WebApp-Test-1\\BuzLogic\\BuzLogic.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Users\\HP\\OneDrive\\Documents\\Codes\\visual-studio-training\\WebApp-Test-1\\BuzLogic\\BuzLogic.csproj",
+        "projectName": "BuzLogic",
+        "projectPath": "C:\\Users\\HP\\OneDrive\\Documents\\Codes\\visual-studio-training\\WebApp-Test-1\\BuzLogic\\BuzLogic.csproj",
+        "frameworks": {
+          "net472": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    },
     "C:\\Users\\HP\\OneDrive\\Documents\\Codes\\visual-studio-training\\WebApp-Test-1\\WebApp-Test-1\\WebApp-Test-1.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -27,7 +42,11 @@
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Users\\HP\\OneDrive\\Documents\\Codes\\visual-studio-training\\WebApp-Test-1\\BuzLogic\\BuzLogic.csproj": {
+                "projectPath": "C:\\Users\\HP\\OneDrive\\Documents\\Codes\\visual-studio-training\\WebApp-Test-1\\BuzLogic\\BuzLogic.csproj"
+              }
+            }
           }
         },
         "warningProperties": {

@@ -1,11 +1,29 @@
 {
   "version": 3,
   "targets": {
-    "net6.0": {}
+    "net6.0": {
+      "BuzLogic/1.0.0": {
+        "type": "project",
+        "compile": {
+          "bin/placeholder/BuzLogic.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BuzLogic.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "BuzLogic/1.0.0": {
+      "type": "project",
+      "path": "../BuzLogic/BuzLogic.csproj",
+      "msbuildProject": "../BuzLogic/BuzLogic.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net6.0": []
+    "net6.0": [
+      "BuzLogic >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\HP\\.nuget\\packages\\": {}
@@ -33,7 +51,11 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\HP\\OneDrive\\Documents\\Codes\\visual-studio-training\\WebApp-Test-1\\BuzLogic\\BuzLogic.csproj": {
+              "projectPath": "C:\\Users\\HP\\OneDrive\\Documents\\Codes\\visual-studio-training\\WebApp-Test-1\\BuzLogic\\BuzLogic.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

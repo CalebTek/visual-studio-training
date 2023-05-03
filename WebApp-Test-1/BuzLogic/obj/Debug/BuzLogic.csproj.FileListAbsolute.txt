@@ -1,0 +1,6 @@
+C:\Users\HP\OneDrive\Documents\Codes\visual-studio-training\WebApp-Test-1\BuzLogic\bin\Debug\BuzLogic.dll
+C:\Users\HP\OneDrive\Documents\Codes\visual-studio-training\WebApp-Test-1\BuzLogic\bin\Debug\BuzLogic.pdb
+C:\Users\HP\OneDrive\Documents\Codes\visual-studio-training\WebApp-Test-1\BuzLogic\obj\Debug\BuzLogic.csproj.AssemblyReference.cache
+C:\Users\HP\OneDrive\Documents\Codes\visual-studio-training\WebApp-Test-1\BuzLogic\obj\Debug\BuzLogic.csproj.CoreCompileInputs.cache
+C:\Users\HP\OneDrive\Documents\Codes\visual-studio-training\WebApp-Test-1\BuzLogic\obj\Debug\BuzLogic.dll
+C:\Users\HP\OneDrive\Documents\Codes\visual-studio-training\WebApp-Test-1\BuzLogic\obj\Debug\BuzLogic.pdb

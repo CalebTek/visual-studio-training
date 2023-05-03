@@ -7,7 +7,7 @@ builder.Services.AddRazorPages();
 
 var app = builder.Build();
 
-var studentAge = new Student;
+var studentAge = new Student("James", "Ada", "Male", 2000);
 
 // Configure the HTTP request pipeline.
 if (!app.Environment.IsDevelopment())

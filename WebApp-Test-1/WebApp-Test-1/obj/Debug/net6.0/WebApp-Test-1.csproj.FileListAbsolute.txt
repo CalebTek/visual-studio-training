@@ -29,3 +29,6 @@ C:\Users\HP\OneDrive\Documents\Codes\visual-studio-training\WebApp-Test-1\WebApp
 C:\Users\HP\OneDrive\Documents\Codes\visual-studio-training\WebApp-Test-1\WebApp-Test-1\obj\Debug\net6.0\WebApp-Test-1.pdb
 C:\Users\HP\OneDrive\Documents\Codes\visual-studio-training\WebApp-Test-1\WebApp-Test-1\obj\Debug\net6.0\WebApp-Test-1.genruntimeconfig.cache
 C:\Users\HP\OneDrive\Documents\Codes\visual-studio-training\WebApp-Test-1\WebApp-Test-1\obj\Debug\net6.0\ref\WebApp-Test-1.dll
+C:\Users\HP\OneDrive\Documents\Codes\visual-studio-training\WebApp-Test-1\WebApp-Test-1\bin\Debug\net6.0\BuzLogic.dll
+C:\Users\HP\OneDrive\Documents\Codes\visual-studio-training\WebApp-Test-1\WebApp-Test-1\bin\Debug\net6.0\BuzLogic.pdb
+C:\Users\HP\OneDrive\Documents\Codes\visual-studio-training\WebApp-Test-1\WebApp-Test-1\obj\Debug\net6.0\WebApp-Test-1.csproj.CopyComplete

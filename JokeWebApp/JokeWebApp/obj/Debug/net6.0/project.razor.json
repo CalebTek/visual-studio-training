@@ -18374,6 +18374,11 @@
   "RootNamespace": "JokeWebApp",
   "Documents": [
     {
+      "FilePath": "c:\\Users\\Decagon Laptop\\Documents\\Codes\\visual-studio-training\\JokeWebApp\\JokeWebApp\\Views\\Jokes\\Index.cshtml",
+      "TargetPath": "Views\\Jokes\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\Decagon Laptop\\Documents\\Codes\\visual-studio-training\\JokeWebApp\\JokeWebApp\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
       "TargetPath": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
       "FileKind": "mvc"
@@ -18381,6 +18386,16 @@
     {
       "FilePath": "c:\\Users\\Decagon Laptop\\Documents\\Codes\\visual-studio-training\\JokeWebApp\\JokeWebApp\\Views\\Shared\\Error.cshtml",
       "TargetPath": "Views\\Shared\\Error.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Decagon Laptop\\Documents\\Codes\\visual-studio-training\\JokeWebApp\\JokeWebApp\\Views\\Jokes\\Edit.cshtml",
+      "TargetPath": "Views\\Jokes\\Edit.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Decagon Laptop\\Documents\\Codes\\visual-studio-training\\JokeWebApp\\JokeWebApp\\Views\\Jokes\\Create.cshtml",
+      "TargetPath": "Views\\Jokes\\Create.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -18394,6 +18409,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\Users\\Decagon Laptop\\Documents\\Codes\\visual-studio-training\\JokeWebApp\\JokeWebApp\\Views\\Jokes\\Details.cshtml",
+      "TargetPath": "Views\\Jokes\\Details.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\Decagon Laptop\\Documents\\Codes\\visual-studio-training\\JokeWebApp\\JokeWebApp\\Views\\Shared\\_LoginPartial.cshtml",
       "TargetPath": "Views\\Shared\\_LoginPartial.cshtml",
       "FileKind": "mvc"
@@ -18401,6 +18421,11 @@
     {
       "FilePath": "c:\\Users\\Decagon Laptop\\Documents\\Codes\\visual-studio-training\\JokeWebApp\\JokeWebApp\\Views\\_ViewStart.cshtml",
       "TargetPath": "Views\\_ViewStart.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Decagon Laptop\\Documents\\Codes\\visual-studio-training\\JokeWebApp\\JokeWebApp\\Views\\Jokes\\Delete.cshtml",
+      "TargetPath": "Views\\Jokes\\Delete.cshtml",
       "FileKind": "mvc"
     },
     {

@@ -1,0 +1,8 @@
+C:\Users\Decagon Laptop\Documents\Codes\visual-studio-training\GPA-Calculator\GPA-Calc\bin\Debug\GPA-Calc.exe.config
+C:\Users\Decagon Laptop\Documents\Codes\visual-studio-training\GPA-Calculator\GPA-Calc\bin\Debug\GPA-Calc.exe
+C:\Users\Decagon Laptop\Documents\Codes\visual-studio-training\GPA-Calculator\GPA-Calc\bin\Debug\GPA-Calc.pdb
+C:\Users\Decagon Laptop\Documents\Codes\visual-studio-training\GPA-Calculator\GPA-Calc\obj\Debug\GPA-Calc.csproj.AssemblyReference.cache
+C:\Users\Decagon Laptop\Documents\Codes\visual-studio-training\GPA-Calculator\GPA-Calc\obj\Debug\GPA-Calc.csproj.SuggestedBindingRedirects.cache
+C:\Users\Decagon Laptop\Documents\Codes\visual-studio-training\GPA-Calculator\GPA-Calc\obj\Debug\GPA-Calc.csproj.CoreCompileInputs.cache
+C:\Users\Decagon Laptop\Documents\Codes\visual-studio-training\GPA-Calculator\GPA-Calc\obj\Debug\GPA-Calc.exe
+C:\Users\Decagon Laptop\Documents\Codes\visual-studio-training\GPA-Calculator\GPA-Calc\obj\Debug\GPA-Calc.pdb

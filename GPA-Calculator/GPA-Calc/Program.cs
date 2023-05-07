@@ -13,7 +13,7 @@ namespace GPA_Calc
                 "\n   1. Your Course Code e.g MTS509, GNS243, EEE453 etc. " +
                 "\n   2. Course Unit (0-9). " +
                 "\n   3. Course Score (0-100). " +
-                "\n \n \n";
+                "\n \n";
             Console.WriteLine(appMSG);
             Console.Write("How many Course(s) do you want to register: ");
             string lengthInput = Console.ReadLine();
@@ -34,6 +34,10 @@ namespace GPA_Calc
                     string courseCodeInput = Console.ReadLine();
                     string courseCode;
                     Regex coursePattern = new Regex(@"^[A-z]{3}\d{3}$");
+                    //var matches = from courses in courseArray
+                    //              where courses.courseCode.ToLower() == courseCodeInput.ToLower()
+                    //              select courses;
+                    //!matches.Any() || 
                     while (!coursePattern.IsMatch(courseCodeInput) || !(courseCodeInput.Length == 6))
                     {
                         Console.Write($"Invalid input,Please enter Course {i + 1} Code in the following MTS509, GNS243, EEE453: ");

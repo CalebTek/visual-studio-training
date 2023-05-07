@@ -48,7 +48,7 @@ namespace GPA_Calc
             return tWpoint;
         }
 
-        public double GPA() => Math.Round(TWpoint() / TCUregister(), 2);
+        public double GPA() => gPA = Math.Round(TWpoint() / TCUregister(), 2);
 
 
         public void Table()

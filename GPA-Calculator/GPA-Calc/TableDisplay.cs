@@ -53,6 +53,7 @@ namespace GPA_Calc
 
         public void Table()
         {
+            Console.WriteLine();
             Console.WriteLine("|---------------|-------------|-------|------------|------------|-----------|");
             Console.WriteLine("| COURSE & CODE | COURSE UNIT | GRADE | GRADE-UNIT | WEIGHT Pt. |  REMARK   |");
             Console.WriteLine("|---------------|-------------|-------|------------|------------|-----------|");
@@ -63,13 +64,13 @@ namespace GPA_Calc
             }
             Console.WriteLine("|--------------------------------------------------|------------|-----------|");
             Console.WriteLine();
-            Console.WriteLine("Total Course Unit Registered is " + TCUregister());
+            Console.WriteLine($"Total Course Unit Registered is {TCUregister()}");
             Console.WriteLine();
-            Console.WriteLine("Total Course Unit Passed is " + TCUpassed());
+            Console.WriteLine($"Total Course Unit Passed is { TCUpassed()}");
             Console.WriteLine();
-            Console.WriteLine("Total Weight Point is " + TWpoint());
+            Console.WriteLine($"Total Weight Point is { TWpoint()}");
             Console.WriteLine();
-            Console.WriteLine("Your GPA is = " + GPA());
+            Console.WriteLine($"Your GPA is = { GPA():f2}");
 
         }
     }

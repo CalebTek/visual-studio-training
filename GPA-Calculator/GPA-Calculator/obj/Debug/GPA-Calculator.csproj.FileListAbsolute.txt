@@ -6,3 +6,11 @@ C:\Users\Decagon Laptop\Documents\Codes\visual-studio-training\GPA-Calculator\GP
 C:\Users\Decagon Laptop\Documents\Codes\visual-studio-training\GPA-Calculator\GPA-Calculator\obj\Debug\GPA-Calculator.csproj.CoreCompileInputs.cache
 C:\Users\Decagon Laptop\Documents\Codes\visual-studio-training\GPA-Calculator\GPA-Calculator\obj\Debug\GPA-Calculator.exe
 C:\Users\Decagon Laptop\Documents\Codes\visual-studio-training\GPA-Calculator\GPA-Calculator\obj\Debug\GPA-Calculator.pdb
+C:\Users\Decagon Laptop\OneDrive\Documents\Codes\visual-studio-training\GPA-Calculator\GPA-Calculator\bin\Debug\GPA-Calculator.exe.config
+C:\Users\Decagon Laptop\OneDrive\Documents\Codes\visual-studio-training\GPA-Calculator\GPA-Calculator\bin\Debug\GPA-Calculator.exe
+C:\Users\Decagon Laptop\OneDrive\Documents\Codes\visual-studio-training\GPA-Calculator\GPA-Calculator\bin\Debug\GPA-Calculator.pdb
+C:\Users\Decagon Laptop\OneDrive\Documents\Codes\visual-studio-training\GPA-Calculator\GPA-Calculator\obj\Debug\GPA-Calculator.csproj.AssemblyReference.cache
+C:\Users\Decagon Laptop\OneDrive\Documents\Codes\visual-studio-training\GPA-Calculator\GPA-Calculator\obj\Debug\GPA-Calculator.csproj.SuggestedBindingRedirects.cache
+C:\Users\Decagon Laptop\OneDrive\Documents\Codes\visual-studio-training\GPA-Calculator\GPA-Calculator\obj\Debug\GPA-Calculator.csproj.CoreCompileInputs.cache
+C:\Users\Decagon Laptop\OneDrive\Documents\Codes\visual-studio-training\GPA-Calculator\GPA-Calculator\obj\Debug\GPA-Calculator.exe
+C:\Users\Decagon Laptop\OneDrive\Documents\Codes\visual-studio-training\GPA-Calculator\GPA-Calculator\obj\Debug\GPA-Calculator.pdb

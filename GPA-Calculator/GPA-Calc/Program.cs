@@ -40,14 +40,14 @@ namespace GPA_Calc
                     //!matches.Any() || 
                     while (!coursePattern.IsMatch(courseCodeInput) || !(courseCodeInput.Length == 6))
                     {
-                        Console.Write($"Invalid input,Please enter Course {i + 1} Code in the following MTS509, GNS243, EEE453: ");
+                        Console.Write($"Invalid input,Please enter Course {i + 1} Code in the following format MTS509, GNS243, EEE453: ");
                         courseCodeInput = Console.ReadLine();
                     }
                     courseCode = courseCodeInput.ToUpper();               
                     Console.Write($"Enter Course {i + 1} Unit (0-9): ");
                     string courseUnitInput = Console.ReadLine();
                     long courseUnit;
-                    while (!long.TryParse(courseUnitInput, out courseUnit) || courseUnit < 1 || courseUnit > 9)
+                    while (!long.TryParse(courseUnitInput, out courseUnit) || courseUnit < 0 || courseUnit > 9)
                     {
                         Console.Write($"Invalid input,Please enter Course {i + 1} Unit between 0 and 9: ");
                         courseUnitInput = Console.ReadLine();
@@ -55,19 +55,40 @@ namespace GPA_Calc
                     Console.Write($"Course {i + 1} Score (0-100): ");
                     string courseScoreInput = Console.ReadLine();
                     long courseScore;
-                    while (!long.TryParse(courseScoreInput, out courseScore) || courseScore < 1 || courseScore > 100)
+                    while (!long.TryParse(courseScoreInput, out courseScore) || courseScore < 0 || courseScore > 100)
                     {
                         Console.Write($"Invalid input,Please enter Course {i + 1} Unit between 0 and 100: ");
                         courseScoreInput = Console.ReadLine();
                     }
                     courseArray[i] = new Course(courseCode, courseUnit, courseScore);
                     counter++;
+                    Console.Clear();
+                    
                 }
                 if (counter == length) { input = false; }
             }
 
             TableDisplay resultDisplay = new TableDisplay(courseArray);
-            resultDisplay.Table();
+            Console.Write("Do you want to display result? Y or N: ");
+            //Console.WriteLine();
+            ConsoleKeyInfo keyInput = Console.ReadKey();
+            char isDisplay = keyInput.KeyChar;
+            switch(isDisplay)
+            {
+                case 'y':
+                case 'Y':
+                    resultDisplay.Table();
+                    break;
+
+                case 'n':
+                case 'N':
+                    Console.WriteLine("Exiting Application, press enter to exit");
+                    break;
+
+                default: Console.WriteLine("Invalid Input, exiting the Application");
+                    break;
+            }
+            
             Console.ReadKey();
         }
     }

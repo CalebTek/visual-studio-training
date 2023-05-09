@@ -39,5 +39,6 @@ namespace GPA_Calc
             gradeUnit == 2 ? "Fair" : gradeUnit == 1 ? "Poor" : gradeUnit == 0 ? "Fail" : "No Remarks";
 
         }
+
     }
 }

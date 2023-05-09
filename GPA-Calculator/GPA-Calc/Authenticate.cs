@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 
 namespace GPA_Calc
@@ -18,6 +19,7 @@ namespace GPA_Calc
         }
 
         // Method
+        // Check if Course code exist
         public bool Exist(string courseCode)
         {
             bool exist = false;
@@ -31,5 +33,36 @@ namespace GPA_Calc
             }
             return exist;
         }
+
+        // Check if course pattern match
+        public bool Match(string courseCode)
+        {
+            Regex coursePattern = new Regex(@"^[A-z]{3}\d{3}$");
+            if (!coursePattern.IsMatch(courseCode))
+            {
+                return false; 
+            }
+            return true;
+        }
+
+        public bool Length(string courseCode)
+        {
+            if (courseCode.Length !=6)
+            {
+                return false;
+            }
+            return true;
+        }
+
+        public bool IsLength(string num)
+        {
+            long length;
+            if(!long.TryParse(num, out length) || length < 0 || length > 9)
+            {
+                return false;
+            }
+            return true;
+        }
+
     }
 }

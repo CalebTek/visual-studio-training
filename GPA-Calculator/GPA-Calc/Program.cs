@@ -22,20 +22,18 @@ namespace GPA_Calc
 
             string courseCodeMSG = $"Invalid input" +
                 $"\nNote:" +
-                $"\nCourse Code format MTS509, GNS243, EEE453" +
-                $"\nCourse Code must be of length six(6)" +
-                $"\nCourse Code must contain three (3) alphabets and digits each" +
-                $"\nCourse Code can't be empty." +
-                $"\nCourse Code not previously registered";
+                $"\nMTS509, gns243, and Csc453 are examples of acceptable course codes." +
+                $"\nCourse Code must be six (6) characters long." +
+                $"\nThere must be three (3) alphabets and numbers in the course code." +
+                $"\nCourse Code must not be blank." +
+                $"\nThe same course code cannot be registered twice.\n";
 
             string courseUnitErr = $"Invalid input" +
-                $"\nNote:"+
-                $"\nCourse Unit can't be less than 0" +
-                $"\nCourse Unit can't be more than 9\n";
+                $"\nNote:" +
+                $"\nNo course unit can be lower than zero (0) or higher than nine (9).\n";
 
             string courseScoreErr = $"Invalid input" +
-                $"\nCourse Score can't be lsess than 0" +
-                $"\nCourse Score can't be more than 100\n";
+                $"\nNo course Score can be lower than zero (0) or higher than hundred (100).\n";
 
             Console.WriteLine(appMSG);
             Console.Write(courseLengthMSG);
@@ -83,7 +81,7 @@ namespace GPA_Calc
                     long courseScore;
                     while (!long.TryParse(courseScoreInput, out courseScore) || courseScore < 0 || courseScore > 100)
                     {
-                        Console.Write(courseScoreErr + $"Enter Course {i + 1} Unit: ");
+                        Console.Write(courseScoreErr + $"Enter Course {i + 1} Score: ");
                         courseScoreInput = Console.ReadLine();
                     }
                     courseArray[i] = new Course(courseCode, courseUnit, courseScore);

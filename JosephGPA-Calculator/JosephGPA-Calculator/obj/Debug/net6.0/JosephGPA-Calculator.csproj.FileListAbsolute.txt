@@ -1,0 +1,15 @@
+C:\Users\HP\OneDrive\Documents\Codes\visual-studio-training\JosephGPA-Calculator\JosephGPA-Calculator\bin\Debug\net6.0\JosephGPA-Calculator.exe
+C:\Users\HP\OneDrive\Documents\Codes\visual-studio-training\JosephGPA-Calculator\JosephGPA-Calculator\bin\Debug\net6.0\JosephGPA-Calculator.deps.json
+C:\Users\HP\OneDrive\Documents\Codes\visual-studio-training\JosephGPA-Calculator\JosephGPA-Calculator\bin\Debug\net6.0\JosephGPA-Calculator.runtimeconfig.json
+C:\Users\HP\OneDrive\Documents\Codes\visual-studio-training\JosephGPA-Calculator\JosephGPA-Calculator\bin\Debug\net6.0\JosephGPA-Calculator.dll
+C:\Users\HP\OneDrive\Documents\Codes\visual-studio-training\JosephGPA-Calculator\JosephGPA-Calculator\bin\Debug\net6.0\JosephGPA-Calculator.pdb
+C:\Users\HP\OneDrive\Documents\Codes\visual-studio-training\JosephGPA-Calculator\JosephGPA-Calculator\obj\Debug\net6.0\JosephGPA-Calculator.csproj.AssemblyReference.cache
+C:\Users\HP\OneDrive\Documents\Codes\visual-studio-training\JosephGPA-Calculator\JosephGPA-Calculator\obj\Debug\net6.0\JosephGPA-Calculator.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HP\OneDrive\Documents\Codes\visual-studio-training\JosephGPA-Calculator\JosephGPA-Calculator\obj\Debug\net6.0\JosephGPA-Calculator.AssemblyInfoInputs.cache
+C:\Users\HP\OneDrive\Documents\Codes\visual-studio-training\JosephGPA-Calculator\JosephGPA-Calculator\obj\Debug\net6.0\JosephGPA-Calculator.AssemblyInfo.cs
+C:\Users\HP\OneDrive\Documents\Codes\visual-studio-training\JosephGPA-Calculator\JosephGPA-Calculator\obj\Debug\net6.0\JosephGPA-Calculator.csproj.CoreCompileInputs.cache
+C:\Users\HP\OneDrive\Documents\Codes\visual-studio-training\JosephGPA-Calculator\JosephGPA-Calculator\obj\Debug\net6.0\JosephGPA-Calculator.dll
+C:\Users\HP\OneDrive\Documents\Codes\visual-studio-training\JosephGPA-Calculator\JosephGPA-Calculator\obj\Debug\net6.0\refint\JosephGPA-Calculator.dll
+C:\Users\HP\OneDrive\Documents\Codes\visual-studio-training\JosephGPA-Calculator\JosephGPA-Calculator\obj\Debug\net6.0\JosephGPA-Calculator.pdb
+C:\Users\HP\OneDrive\Documents\Codes\visual-studio-training\JosephGPA-Calculator\JosephGPA-Calculator\obj\Debug\net6.0\JosephGPA-Calculator.genruntimeconfig.cache
+C:\Users\HP\OneDrive\Documents\Codes\visual-studio-training\JosephGPA-Calculator\JosephGPA-Calculator\obj\Debug\net6.0\ref\JosephGPA-Calculator.dll

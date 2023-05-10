@@ -1,0 +1,15 @@
+C:\Users\HP\OneDrive\Documents\Codes\visual-studio-training\test-kit\test-kit\bin\Debug\net7.0\test-kit.exe
+C:\Users\HP\OneDrive\Documents\Codes\visual-studio-training\test-kit\test-kit\bin\Debug\net7.0\test-kit.deps.json
+C:\Users\HP\OneDrive\Documents\Codes\visual-studio-training\test-kit\test-kit\bin\Debug\net7.0\test-kit.runtimeconfig.json
+C:\Users\HP\OneDrive\Documents\Codes\visual-studio-training\test-kit\test-kit\bin\Debug\net7.0\test-kit.dll
+C:\Users\HP\OneDrive\Documents\Codes\visual-studio-training\test-kit\test-kit\bin\Debug\net7.0\test-kit.pdb
+C:\Users\HP\OneDrive\Documents\Codes\visual-studio-training\test-kit\test-kit\obj\Debug\net7.0\test-kit.csproj.AssemblyReference.cache
+C:\Users\HP\OneDrive\Documents\Codes\visual-studio-training\test-kit\test-kit\obj\Debug\net7.0\test-kit.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HP\OneDrive\Documents\Codes\visual-studio-training\test-kit\test-kit\obj\Debug\net7.0\test-kit.AssemblyInfoInputs.cache
+C:\Users\HP\OneDrive\Documents\Codes\visual-studio-training\test-kit\test-kit\obj\Debug\net7.0\test-kit.AssemblyInfo.cs
+C:\Users\HP\OneDrive\Documents\Codes\visual-studio-training\test-kit\test-kit\obj\Debug\net7.0\test-kit.csproj.CoreCompileInputs.cache
+C:\Users\HP\OneDrive\Documents\Codes\visual-studio-training\test-kit\test-kit\obj\Debug\net7.0\test-kit.dll
+C:\Users\HP\OneDrive\Documents\Codes\visual-studio-training\test-kit\test-kit\obj\Debug\net7.0\refint\test-kit.dll
+C:\Users\HP\OneDrive\Documents\Codes\visual-studio-training\test-kit\test-kit\obj\Debug\net7.0\test-kit.pdb
+C:\Users\HP\OneDrive\Documents\Codes\visual-studio-training\test-kit\test-kit\obj\Debug\net7.0\test-kit.genruntimeconfig.cache
+C:\Users\HP\OneDrive\Documents\Codes\visual-studio-training\test-kit\test-kit\obj\Debug\net7.0\ref\test-kit.dll

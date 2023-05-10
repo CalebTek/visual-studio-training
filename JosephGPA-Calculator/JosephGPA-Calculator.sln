@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33530.505
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JosephGPA-Calculator", "JosephGPA-Calculator\JosephGPA-Calculator.csproj", "{130BDEE2-3B72-49B8-983C-437A1E251F0B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{130BDEE2-3B72-49B8-983C-437A1E251F0B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{130BDEE2-3B72-49B8-983C-437A1E251F0B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{130BDEE2-3B72-49B8-983C-437A1E251F0B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{130BDEE2-3B72-49B8-983C-437A1E251F0B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3D1A46DC-88C8-4743-93A8-854C7FF8BED0}
+	EndGlobalSection
+EndGlobal

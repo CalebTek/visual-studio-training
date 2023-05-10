@@ -46,6 +46,16 @@ namespace GPA_Calc
             return true;
         }
 
+        public bool MatchKey(string key)
+        {
+            Regex keyPatter = new Regex(@"^[nNyY]$");
+            if (!keyPatter.IsMatch(key))
+            {
+                return false;
+            }
+            return true;
+        }
+
         public bool Length(string courseCode)
         {
             if (courseCode.Length !=6)

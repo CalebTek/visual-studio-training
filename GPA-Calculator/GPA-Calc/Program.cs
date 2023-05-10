@@ -10,7 +10,6 @@ namespace GPA_Calc
     {
         static void Main(string[] args)
         {
-                   
             string appMSG = "Welcome to the GPA Calculator Application. " +
                 "\nTo calculate your GPA, input the following according to the prompt: " +
                 "\n   1. Your Course Code e.g MTS509, GNS243, EEE453 etc. " +
@@ -47,6 +46,25 @@ namespace GPA_Calc
             //}
             //Course[] courseArray = new Course[length];
             List<Course> courseList = new List<Course>();
+            Authenticate check = new Authenticate(courseList);
+            Console.Write("Do you want to start? Y or N: ");
+            ConsoleKeyInfo startKeyInput = Console.ReadKey();
+            string startKey = startKeyInput.KeyChar.ToString();
+            while (!check.MatchKey(startKey))
+            {
+                Console.WriteLine("Invalid input, Press Y or N: ");
+                startKeyInput = Console.ReadKey();
+                startKey = startKeyInput.KeyChar.ToString();
+            }
+            Console.WriteLine();
+            switch (startKey)
+            {
+                case "n":
+                case "N":
+                    Console.WriteLine("Exiting Application, press enter to exit");
+                    Environment.Exit(0);
+                    break;
+            }
             bool input = true;
             int counter = 0;
             while (input)
@@ -58,7 +76,6 @@ namespace GPA_Calc
                     string courseCode;
                     //Regex coursePattern = new Regex(@"^[A-z]{3}\d{3}$");
                     //Authenticate check = new Authenticate(courseArray);
-                    Authenticate check = new Authenticate(courseList);
                     //var matches = from courses in courseArray
                     //              where courses.courseCode.ToLower() == courseCodeInput.ToLower()
                     //              select courses;
@@ -94,31 +111,38 @@ namespace GPA_Calc
                 Console.Write("Do you want to add more? Y or N: ");
 
                 //ConsoleKeyInfo addInput = new ConsoleKeyInfo(' ', ConsoleKey.NoName, false, false, false);
-                ConsoleKeyInfo addInput = Console.ReadKey();
-                string isKey = addInput.KeyChar.ToString().ToLower();
-                char key;
-                while (!(char.TryParse(isKey, out key))) // || (int)key != 121 || (int)key != 110
+                //ConsoleKeyInfo addInput = Console.ReadKey();
+                //string isKey = addInput.KeyChar.ToString().ToLower();
+                //char key;
+                //string addKey = Console.ReadLine();
+                ConsoleKeyInfo addKeyInput = Console.ReadKey();
+                string addKey = addKeyInput.KeyChar.ToString();
+                //Regex isKey = new Regex(@"^[nNyY]$");
+                //while (!(char.TryParse(isKey, out key))) // || (int)key != 121 || (int)key != 110
+                while (!check.MatchKey(addKey))
                 {
-                    Console.Write("Do you want to add more? Y or N: ");
-                    addInput = Console.ReadKey();
-                    isKey = addInput.KeyChar.ToString().ToLower();
+                    Console.WriteLine("Invalid input, Press Y or N: ");
+                    //addKey = Console.ReadLine();
+                    addKeyInput = Console.ReadKey();
+                    addKey = addKeyInput.KeyChar.ToString();
+                    //isKey = addInput.KeyChar.ToString().ToLower();
                     //isKey = addInput.KeyChar;
                 }
 
-                switch (key)
+                switch (addKey)
                 {
-                    case 'y':
-                    case 'Y':
+                    case "y":
+                    case "Y":
                         input = true;
                         break;
 
-                    case 'n':
-                    case 'N':
+                    case "n":
+                    case "N":
                         input = false;
                         break;
-                    default:
-                        input = false;
-                        break;
+                    //default:
+                    //    input = false;
+                    //    break;
                 }
                 Console.WriteLine();
 
@@ -131,22 +155,30 @@ namespace GPA_Calc
             Console.Write("Do you want to display result? Y or N: ");
             //Console.WriteLine();
             ConsoleKeyInfo keyInput = Console.ReadKey();
-            char isDisplay = keyInput.KeyChar;
-            switch(isDisplay)
+            string isDisplay = keyInput.KeyChar.ToString();
+            Console.WriteLine();
+            while (!check.MatchKey(isDisplay))
             {
-                case 'y':
-                case 'Y':
+                Console.WriteLine("Invalid input, Press Y or N: ");
+                keyInput = Console.ReadKey();
+                isDisplay = keyInput.KeyChar.ToString();
+            }
+            switch (isDisplay)
+            {
+                case "y":
+                case "Y":
                     resultDisplay.Table();
                     break;
 
-                case 'n':
-                case 'N':
+                case "n":
+                case "N":
                     Console.WriteLine("Exiting Application, press enter to exit");
                     break;
 
                 default: Console.WriteLine("Exiting the Application");
                     break;
             }
+
             
             Console.ReadKey();
         }

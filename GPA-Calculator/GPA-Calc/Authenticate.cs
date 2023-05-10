@@ -10,10 +10,11 @@ namespace GPA_Calc
     internal class Authenticate
     {
         // Field
-        Course[] _course { get; set; }
+        //Course[] _course { get; set; }
+        List<Course> _course { get; set; }
         
         // Constructor
-        public Authenticate(Course[] course) 
+        public Authenticate(List<Course> course) 
         {
             this._course = course;
         }

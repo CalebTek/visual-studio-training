@@ -8,9 +8,11 @@ namespace GPA_Calc
 {
     internal class TableDisplay
     {
-        public Course[] convertedGrades { get; set; }
+        //public Course[] convertedGrades { get; set; }
+        public List<Course> convertedGrades { get; set; }
+
         public double tCUregister, tCUpassed, tWpoint, gPA;
-        public TableDisplay(Course[] convertedGrades)
+        public TableDisplay(List<Course> convertedGrades)
         {
             this.convertedGrades = convertedGrades;
             
@@ -19,7 +21,7 @@ namespace GPA_Calc
         public double TCUregister()
         {
             tCUregister = 0;
-            for (int i = 0; i < convertedGrades.Length; i++)
+            for (int i = 0; i < convertedGrades.Count; i++)
             {
                 tCUregister += convertedGrades[i].courseUnit;
             }
@@ -29,7 +31,7 @@ namespace GPA_Calc
         public double TCUpassed()
         {
             tCUpassed = 0;
-            for (int i = 0; i < convertedGrades.Length; i++)
+            for (int i = 0; i < convertedGrades.Count; i++)
             {
                 if (convertedGrades[i].gradeUnit != 0)
                 {
@@ -42,7 +44,7 @@ namespace GPA_Calc
         public double TWpoint()
         {
             tWpoint = 0;
-            for (int i = 0; i < convertedGrades.Length; i++)
+            for (int i = 0; i < convertedGrades.Count; i++)
             {
                 tWpoint += convertedGrades[i].weightPoint;
             }

@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.Linq;
 using System.Text.RegularExpressions;
 
@@ -36,26 +37,28 @@ namespace GPA_Calc
                 $"\nNo course Score can be lower than zero (0) or higher than hundred (100).\n";
 
             Console.WriteLine(appMSG);
-            Console.Write(courseLengthMSG);
-            string lengthInput = Console.ReadLine();
-            long length;
-            while (!long.TryParse(lengthInput, out length) || length < 1 || length > 100)
-            {
-                Console.Write(courseLengthErr);
-                lengthInput = Console.ReadLine();
-            }
-            Course[] courseArray = new Course[length];
+            //Console.Write(courseLengthMSG);
+            //string lengthInput = Console.ReadLine();
+            //long length;
+            //while (!long.TryParse(lengthInput, out length) || length < 1 || length > 100)
+            //{
+            //    Console.Write(courseLengthErr);
+            //    lengthInput = Console.ReadLine();
+            //}
+            //Course[] courseArray = new Course[length];
+            List<Course> courseList = new List<Course>();
             bool input = true;
             int counter = 0;
             while (input)
             {
-                for (int i = 0; i < length; i++)
-                {
-                    Console.Write($"Enter Course {i + 1} Code e.g MTS509, GNS243, EEE453: ");
+                //for (int i = 0; i < length; i++)
+                //{
+                    Console.Write($"Enter Course {counter + 1} Code e.g MTS509, GNS243, EEE453: ");
                     string courseCodeInput = Console.ReadLine();
                     string courseCode;
                     //Regex coursePattern = new Regex(@"^[A-z]{3}\d{3}$");
-                    Authenticate check = new Authenticate(courseArray);
+                    //Authenticate check = new Authenticate(courseArray);
+                    Authenticate check = new Authenticate(courseList);
                     //var matches = from courses in courseArray
                     //              where courses.courseCode.ToLower() == courseCodeInput.ToLower()
                     //              select courses;
@@ -63,58 +66,68 @@ namespace GPA_Calc
                     //while (!coursePattern.IsMatch(courseCodeInput) || !(courseCodeInput.Length == 6) || check.Exist(courseCodeInput))
                     while (!check.Match(courseCodeInput) || !check.Length(courseCodeInput) || check.Exist(courseCodeInput.ToUpper()))
                     {
-                        Console.Write(courseCodeMSG + $"Enter Course {i + 1} Code: ");
+                        Console.Write(courseCodeMSG + $"Enter Course {counter + 1} Code: ");
                         courseCodeInput = Console.ReadLine();
                     }
                     courseCode = courseCodeInput.ToUpper();
-                    Console.Write($"Enter Course {i + 1} Unit (0-9): ");
+                    Console.Write($"Enter Course {counter + 1} Unit (0-9): ");
                     string courseUnitInput = Console.ReadLine();
                     long courseUnit;
                     while (!long.TryParse(courseUnitInput, out courseUnit) || courseUnit < 0 || courseUnit > 9)
                     //while (!check.IsLength(courseUnitInput))
                     {
-                        Console.Write(courseUnitErr + $"Enter Course {i + 1} Unit: ");
+                        Console.Write(courseUnitErr + $"Enter Course {counter + 1} Unit: ");
                         courseUnitInput = Console.ReadLine();
                     }
-                    Console.Write($"Course {i + 1} Score (0-100): ");
+                    Console.Write($"Course {counter + 1} Score (0-100): ");
                     string courseScoreInput = Console.ReadLine();
                     long courseScore;
                     while (!long.TryParse(courseScoreInput, out courseScore) || courseScore < 0 || courseScore > 100)
                     {
-                        Console.Write(courseScoreErr + $"Enter Course {i + 1} Score: ");
+                        Console.Write(courseScoreErr + $"Enter Course {counter + 1} Score: ");
                         courseScoreInput = Console.ReadLine();
                     }
-                    courseArray[i] = new Course(courseCode, courseUnit, courseScore);
+                //courseArray[i] = new Course(courseCode, courseUnit, courseScore);
+                courseList.Add(new Course(courseCode, courseUnit, courseScore));
                     counter++;
                     Console.Clear();
+                Console.Write("Do you want to add more? Y or N: ");
 
-                    //ConsoleKeyInfo addInput = Console.ReadKey();
-                    //char isKey = addInput.KeyChar;
-
-                    //while (isKey != 'y' || isKey != 'y' || isKey != 'n' || isKey != 'N')
-                    //{
-                    //    addInput = Console.ReadKey();
-                    //    isKey = addInput.KeyChar;
-                    //}
-                        
-                    //switch (isKey)
-                    //{
-                    //    case 'y':
-                    //    case 'Y':
-                    //        input = true;
-                    //        break;
-
-                    //    case 'n':
-                    //    case 'N':
-                    //        input = false;
-                    //        break;
-                    //}
-
+                //ConsoleKeyInfo addInput = new ConsoleKeyInfo(' ', ConsoleKey.NoName, false, false, false);
+                ConsoleKeyInfo addInput = Console.ReadKey();
+                string isKey = addInput.KeyChar.ToString().ToLower();
+                char key;
+                while (!(char.TryParse(isKey, out key))) // || (int)key != 121 || (int)key != 110
+                {
+                    Console.Write("Do you want to add more? Y or N: ");
+                    addInput = Console.ReadKey();
+                    isKey = addInput.KeyChar.ToString().ToLower();
+                    //isKey = addInput.KeyChar;
                 }
-                if (counter == length) { input = false; }
+
+                switch (key)
+                {
+                    case 'y':
+                    case 'Y':
+                        input = true;
+                        break;
+
+                    case 'n':
+                    case 'N':
+                        input = false;
+                        break;
+                    default:
+                        input = false;
+                        break;
+                }
+                Console.WriteLine();
+
+                //}
+                //if (counter == length) { input = false; }
             }
 
-            TableDisplay resultDisplay = new TableDisplay(courseArray);
+            //TableDisplay resultDisplay = new TableDisplay(courseArray);
+            TableDisplay resultDisplay = new TableDisplay(courseList);
             Console.Write("Do you want to display result? Y or N: ");
             //Console.WriteLine();
             ConsoleKeyInfo keyInput = Console.ReadKey();
@@ -131,7 +144,7 @@ namespace GPA_Calc
                     Console.WriteLine("Exiting Application, press enter to exit");
                     break;
 
-                default: Console.WriteLine("Invalid Input, exiting the Application");
+                default: Console.WriteLine("Exiting the Application");
                     break;
             }
             

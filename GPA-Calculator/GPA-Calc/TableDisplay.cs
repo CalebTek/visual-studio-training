@@ -13,6 +13,7 @@ namespace GPA_Calc
         public TableDisplay(Course[] convertedGrades)
         {
             this.convertedGrades = convertedGrades;
+            
         }
 
         public double TCUregister()

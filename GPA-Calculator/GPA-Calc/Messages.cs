@@ -109,5 +109,11 @@ namespace GPA_Calc
         //TableDisplay resultDisplay = new TableDisplay(courseArray);
 
 
+      /*  Console.Write("\nPress enter to exit... ");
+
+            default: Console.Write("\nExiting the Application... ");
+            break;*/
+
+
     }
 }

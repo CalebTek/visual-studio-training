@@ -31,6 +31,7 @@ namespace GPA_Calc
                 case "n":
                 case "N":
                     Console.Write("\nExiting Application, press enter to exit");
+                    Console.ReadKey();
                     Environment.Exit(0);
                     break;
             }
@@ -117,11 +118,9 @@ namespace GPA_Calc
                     Console.Write("\nPress enter to exit... ");
                     break;
 
-                default: Console.Write("\nExiting the Application... ");
-                    break;
             }
 
-            Console.Write("\nPress enter to exit... ");
+            Console.ReadKey();
         }
     }
 }

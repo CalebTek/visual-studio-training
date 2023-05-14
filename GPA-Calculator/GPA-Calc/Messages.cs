@@ -12,7 +12,7 @@ namespace GPA_Calc
         {
             string appMSG = "Welcome to the GPA Calculator Application. " +
             "\nTo calculate your GPA, input the following according to the prompt: " +
-            "\n   1. Your Course Code e.g MTS509, GNS243, EEE453 etc. " +
+            "\n   1. Your Course Code e.g CSH101, NJS101, JVA101 etc. " +
             "\n   2. Course Unit (0-9). " +
             "\n   3. Course Score (0-100). " +
             "\n \n";
@@ -30,7 +30,7 @@ namespace GPA_Calc
 
             string courseCodeMSG = $"Invalid input" +
                 $"\nNote:" +
-                $"\nMTS509, gns243, and Csc453 are examples of acceptable course codes." +
+                $"\nCSH101, NJS101, and JVA101 are examples of acceptable course codes." +
                 $"\nCourse Code must be six (6) characters long." +
                 $"\nThere must be three (3) alphabets and numbers in the course code." +
                 $"\nCourse Code must not be blank." +

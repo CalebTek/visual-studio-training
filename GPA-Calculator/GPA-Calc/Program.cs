@@ -40,7 +40,7 @@ namespace GPA_Calc
             while (input)
             {
                 
-                    Console.Write($"Enter Course {counter + 1} Code e.g MTS509, GNS243, EEE453: ");
+                    Console.Write($"Enter Course {counter + 1} Code e.g CSH101, NJS101, JVA101: ");
                     string courseCodeInput = Console.ReadLine();
                     string courseCode;
                     while (!check.Match(courseCodeInput) || !check.Length(courseCodeInput) || check.Exist(courseCodeInput.ToUpper()))
@@ -115,11 +115,11 @@ namespace GPA_Calc
 
                 case "n":
                 case "N":
-                    Console.Write("\nPress enter to exit... ");
+                    //Console.Write("\nPress enter to exit... ");
                     break;
 
             }
-
+            Console.Write("\nPress enter to exit... ");
             Console.ReadKey();
         }
     }

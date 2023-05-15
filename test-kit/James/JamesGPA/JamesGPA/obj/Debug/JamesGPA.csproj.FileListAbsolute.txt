@@ -1,8 +1,0 @@
-C:\Users\Decagon Laptop\OneDrive\Documents\Codes\visual-studio-training\Test-Kits\JamesGPA\JamesGPA\JamesGPA\bin\Debug\JamesGPA.exe.config
-C:\Users\Decagon Laptop\OneDrive\Documents\Codes\visual-studio-training\Test-Kits\JamesGPA\JamesGPA\JamesGPA\bin\Debug\JamesGPA.exe
-C:\Users\Decagon Laptop\OneDrive\Documents\Codes\visual-studio-training\Test-Kits\JamesGPA\JamesGPA\JamesGPA\bin\Debug\JamesGPA.pdb
-C:\Users\Decagon Laptop\OneDrive\Documents\Codes\visual-studio-training\Test-Kits\JamesGPA\JamesGPA\JamesGPA\obj\Debug\JamesGPA.csproj.AssemblyReference.cache
-C:\Users\Decagon Laptop\OneDrive\Documents\Codes\visual-studio-training\Test-Kits\JamesGPA\JamesGPA\JamesGPA\obj\Debug\JamesGPA.csproj.SuggestedBindingRedirects.cache
-C:\Users\Decagon Laptop\OneDrive\Documents\Codes\visual-studio-training\Test-Kits\JamesGPA\JamesGPA\JamesGPA\obj\Debug\JamesGPA.csproj.CoreCompileInputs.cache
-C:\Users\Decagon Laptop\OneDrive\Documents\Codes\visual-studio-training\Test-Kits\JamesGPA\JamesGPA\JamesGPA\obj\Debug\JamesGPA.exe
-C:\Users\Decagon Laptop\OneDrive\Documents\Codes\visual-studio-training\Test-Kits\JamesGPA\JamesGPA\JamesGPA\obj\Debug\JamesGPA.pdb

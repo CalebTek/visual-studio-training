@@ -1,4 +1,6 @@
 ﻿// See https://aka.ms/new-console-template for more information
+
+// test Keyinfo
 Console.WriteLine("Press a Key Y/N");
 ConsoleKeyInfo key = Console.ReadKey();
 Console.WriteLine();
@@ -14,3 +16,9 @@ int keyint1 = (int)key.KeyChar;
 Console.WriteLine(keyint1);
 Console.WriteLine(keyint != 89);
 Console.ReadKey();
+
+decimal result;
+
+decimal age = 10.5M;
+
+result = age + 10;

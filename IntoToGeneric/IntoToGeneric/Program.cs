@@ -18,5 +18,6 @@ namespace IntoToGeneric
         static void Main(string[] args)
         {
         }
+
     }
 }

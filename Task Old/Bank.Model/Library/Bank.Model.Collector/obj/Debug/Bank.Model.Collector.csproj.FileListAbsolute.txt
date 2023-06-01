@@ -1,0 +1,9 @@
+C:\Users\Decagon Laptop\OneDrive\Documents\Codes\Decagon\week-3-CalebTek\Bank.Model\Library\Bank.Model.Collector\obj\Debug\Bank.Model.Collector.csproj.AssemblyReference.cache
+C:\Users\Decagon Laptop\OneDrive\Documents\Codes\Decagon\week-3-CalebTek\Bank.Model\Library\Bank.Model.Collector\obj\Debug\Bank.Model.Collector.csproj.CoreCompileInputs.cache
+C:\Users\Decagon Laptop\OneDrive\Documents\Codes\Decagon\week-3-CalebTek\Bank.Model\Library\Bank.Model.Collector\bin\Debug\Bank.Model.Collector.dll
+C:\Users\Decagon Laptop\OneDrive\Documents\Codes\Decagon\week-3-CalebTek\Bank.Model\Library\Bank.Model.Collector\bin\Debug\Bank.Model.Collector.pdb
+C:\Users\Decagon Laptop\OneDrive\Documents\Codes\Decagon\week-3-CalebTek\Bank.Model\Library\Bank.Model.Collector\bin\Debug\Bank.Model.Common.dll
+C:\Users\Decagon Laptop\OneDrive\Documents\Codes\Decagon\week-3-CalebTek\Bank.Model\Library\Bank.Model.Collector\bin\Debug\Bank.Model.Common.pdb
+C:\Users\Decagon Laptop\OneDrive\Documents\Codes\Decagon\week-3-CalebTek\Bank.Model\Library\Bank.Model.Collector\obj\Debug\Bank.Model.Collector.csproj.CopyComplete
+C:\Users\Decagon Laptop\OneDrive\Documents\Codes\Decagon\week-3-CalebTek\Bank.Model\Library\Bank.Model.Collector\obj\Debug\Bank.Model.Collector.dll
+C:\Users\Decagon Laptop\OneDrive\Documents\Codes\Decagon\week-3-CalebTek\Bank.Model\Library\Bank.Model.Collector\obj\Debug\Bank.Model.Collector.pdb

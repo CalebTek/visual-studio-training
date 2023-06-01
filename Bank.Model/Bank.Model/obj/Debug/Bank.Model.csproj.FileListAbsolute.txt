@@ -1,0 +1,8 @@
+C:\Users\Decagon Laptop\OneDrive\Documents\Codes\visual-studio-training\Bank.Model\Bank.Model\bin\Debug\Bank.Model.exe.config
+C:\Users\Decagon Laptop\OneDrive\Documents\Codes\visual-studio-training\Bank.Model\Bank.Model\bin\Debug\Bank.Model.exe
+C:\Users\Decagon Laptop\OneDrive\Documents\Codes\visual-studio-training\Bank.Model\Bank.Model\bin\Debug\Bank.Model.pdb
+C:\Users\Decagon Laptop\OneDrive\Documents\Codes\visual-studio-training\Bank.Model\Bank.Model\obj\Debug\Bank.Model.csproj.AssemblyReference.cache
+C:\Users\Decagon Laptop\OneDrive\Documents\Codes\visual-studio-training\Bank.Model\Bank.Model\obj\Debug\Bank.Model.csproj.SuggestedBindingRedirects.cache
+C:\Users\Decagon Laptop\OneDrive\Documents\Codes\visual-studio-training\Bank.Model\Bank.Model\obj\Debug\Bank.Model.csproj.CoreCompileInputs.cache
+C:\Users\Decagon Laptop\OneDrive\Documents\Codes\visual-studio-training\Bank.Model\Bank.Model\obj\Debug\Bank.Model.exe
+C:\Users\Decagon Laptop\OneDrive\Documents\Codes\visual-studio-training\Bank.Model\Bank.Model\obj\Debug\Bank.Model.pdb

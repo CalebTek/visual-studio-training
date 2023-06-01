@@ -1,0 +1,9 @@
+C:\Users\Decagon Laptop\OneDrive\Documents\Codes\visual-studio-training\demo.OOP\demo.OOP\bin\Debug\demo.OOP.dll
+C:\Users\Decagon Laptop\OneDrive\Documents\Codes\visual-studio-training\demo.OOP\demo.OOP\bin\Debug\demo.OOP.pdb
+C:\Users\Decagon Laptop\OneDrive\Documents\Codes\visual-studio-training\demo.OOP\demo.OOP\obj\Debug\demo.OOP.csproj.AssemblyReference.cache
+C:\Users\Decagon Laptop\OneDrive\Documents\Codes\visual-studio-training\demo.OOP\demo.OOP\obj\Debug\demo.OOP.csproj.CoreCompileInputs.cache
+C:\Users\Decagon Laptop\OneDrive\Documents\Codes\visual-studio-training\demo.OOP\demo.OOP\obj\Debug\demo.OOP.dll
+C:\Users\Decagon Laptop\OneDrive\Documents\Codes\visual-studio-training\demo.OOP\demo.OOP\obj\Debug\demo.OOP.pdb
+C:\Users\Decagon Laptop\OneDrive\Documents\Codes\visual-studio-training\demo.OOP\demo.OOP\bin\Debug\demo.OOP.Common.dll
+C:\Users\Decagon Laptop\OneDrive\Documents\Codes\visual-studio-training\demo.OOP\demo.OOP\bin\Debug\demo.OOP.Common.pdb
+C:\Users\Decagon Laptop\OneDrive\Documents\Codes\visual-studio-training\demo.OOP\demo.OOP\obj\Debug\demo.OOP.csproj.CopyComplete

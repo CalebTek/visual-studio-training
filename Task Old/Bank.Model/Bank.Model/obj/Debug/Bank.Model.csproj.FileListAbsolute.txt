@@ -1,0 +1,13 @@
+C:\Users\Decagon Laptop\OneDrive\Documents\Codes\Decagon\week-3-CalebTek\Bank.Model\Bank.Model\bin\Debug\Bank.Model.exe.config
+C:\Users\Decagon Laptop\OneDrive\Documents\Codes\Decagon\week-3-CalebTek\Bank.Model\Bank.Model\bin\Debug\Bank.Model.exe
+C:\Users\Decagon Laptop\OneDrive\Documents\Codes\Decagon\week-3-CalebTek\Bank.Model\Bank.Model\bin\Debug\Bank.Model.pdb
+C:\Users\Decagon Laptop\OneDrive\Documents\Codes\Decagon\week-3-CalebTek\Bank.Model\Bank.Model\bin\Debug\Bank.Model.Common.dll
+C:\Users\Decagon Laptop\OneDrive\Documents\Codes\Decagon\week-3-CalebTek\Bank.Model\Bank.Model\bin\Debug\Bank.Model.Common.pdb
+C:\Users\Decagon Laptop\OneDrive\Documents\Codes\Decagon\week-3-CalebTek\Bank.Model\Bank.Model\obj\Debug\Bank.Model.csproj.AssemblyReference.cache
+C:\Users\Decagon Laptop\OneDrive\Documents\Codes\Decagon\week-3-CalebTek\Bank.Model\Bank.Model\obj\Debug\Bank.Model.csproj.SuggestedBindingRedirects.cache
+C:\Users\Decagon Laptop\OneDrive\Documents\Codes\Decagon\week-3-CalebTek\Bank.Model\Bank.Model\obj\Debug\Bank.Model.csproj.CoreCompileInputs.cache
+C:\Users\Decagon Laptop\OneDrive\Documents\Codes\Decagon\week-3-CalebTek\Bank.Model\Bank.Model\obj\Debug\Bank.Model.csproj.CopyComplete
+C:\Users\Decagon Laptop\OneDrive\Documents\Codes\Decagon\week-3-CalebTek\Bank.Model\Bank.Model\obj\Debug\Bank.Model.exe
+C:\Users\Decagon Laptop\OneDrive\Documents\Codes\Decagon\week-3-CalebTek\Bank.Model\Bank.Model\obj\Debug\Bank.Model.pdb
+C:\Users\Decagon Laptop\OneDrive\Documents\Codes\Decagon\week-3-CalebTek\Bank.Model\Bank.Model\bin\Debug\Bank.Model.Collector.dll
+C:\Users\Decagon Laptop\OneDrive\Documents\Codes\Decagon\week-3-CalebTek\Bank.Model\Bank.Model\bin\Debug\Bank.Model.Collector.pdb

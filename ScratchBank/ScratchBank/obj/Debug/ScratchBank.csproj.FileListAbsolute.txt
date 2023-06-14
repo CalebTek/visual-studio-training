@@ -1,0 +1,8 @@
+C:\Users\Decagon Laptop\OneDrive\Documents\Codes\visual-studio-training\ScratchBank\ScratchBank\bin\Debug\ScratchBank.exe.config
+C:\Users\Decagon Laptop\OneDrive\Documents\Codes\visual-studio-training\ScratchBank\ScratchBank\bin\Debug\ScratchBank.exe
+C:\Users\Decagon Laptop\OneDrive\Documents\Codes\visual-studio-training\ScratchBank\ScratchBank\bin\Debug\ScratchBank.pdb
+C:\Users\Decagon Laptop\OneDrive\Documents\Codes\visual-studio-training\ScratchBank\ScratchBank\obj\Debug\ScratchBank.csproj.AssemblyReference.cache
+C:\Users\Decagon Laptop\OneDrive\Documents\Codes\visual-studio-training\ScratchBank\ScratchBank\obj\Debug\ScratchBank.csproj.SuggestedBindingRedirects.cache
+C:\Users\Decagon Laptop\OneDrive\Documents\Codes\visual-studio-training\ScratchBank\ScratchBank\obj\Debug\ScratchBank.csproj.CoreCompileInputs.cache
+C:\Users\Decagon Laptop\OneDrive\Documents\Codes\visual-studio-training\ScratchBank\ScratchBank\obj\Debug\ScratchBank.exe
+C:\Users\Decagon Laptop\OneDrive\Documents\Codes\visual-studio-training\ScratchBank\ScratchBank\obj\Debug\ScratchBank.pdb

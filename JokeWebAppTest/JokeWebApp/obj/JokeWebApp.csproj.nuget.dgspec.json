@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Decagon Laptop\\Documents\\Codes\\visual-studio-training\\JokeWebApp\\JokeWebApp\\JokeWebApp.csproj": {}
+    "C:\\Users\\Decagon Laptop\\OneDrive\\Documents\\Codes\\visual-studio-training\\JokeWebAppTest\\JokeWebApp\\JokeWebApp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Decagon Laptop\\Documents\\Codes\\visual-studio-training\\JokeWebApp\\JokeWebApp\\JokeWebApp.csproj": {
+    "C:\\Users\\Decagon Laptop\\OneDrive\\Documents\\Codes\\visual-studio-training\\JokeWebAppTest\\JokeWebApp\\JokeWebApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Decagon Laptop\\Documents\\Codes\\visual-studio-training\\JokeWebApp\\JokeWebApp\\JokeWebApp.csproj",
+        "projectUniqueName": "C:\\Users\\Decagon Laptop\\OneDrive\\Documents\\Codes\\visual-studio-training\\JokeWebAppTest\\JokeWebApp\\JokeWebApp.csproj",
         "projectName": "JokeWebApp",
-        "projectPath": "C:\\Users\\Decagon Laptop\\Documents\\Codes\\visual-studio-training\\JokeWebApp\\JokeWebApp\\JokeWebApp.csproj",
+        "projectPath": "C:\\Users\\Decagon Laptop\\OneDrive\\Documents\\Codes\\visual-studio-training\\JokeWebAppTest\\JokeWebApp\\JokeWebApp.csproj",
         "packagesPath": "C:\\Users\\Decagon Laptop\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Decagon Laptop\\Documents\\Codes\\visual-studio-training\\JokeWebApp\\JokeWebApp\\obj\\",
+        "outputPath": "C:\\Users\\Decagon Laptop\\OneDrive\\Documents\\Codes\\visual-studio-training\\JokeWebAppTest\\JokeWebApp\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -27,6 +27,7 @@
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "C:\\Program Files\\dotnet\\library-packs": {},
+          "C:\\Program Files\\dotnet\\sdk\\7.0.304\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -48,6 +49,16 @@
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
               "version": "[6.0.15, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.15, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[6.0.13, )"
             }
           },
           "imports": [
@@ -69,7 +80,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
         }
       }
     }

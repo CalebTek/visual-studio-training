@@ -10,11 +10,13 @@ namespace ScratchBank
 {
     public class Bank
     {
+        private CheckBalance _checker;
         private List<Account> accounts { get; set; }
         private string fileLocation { get; set; }
         public Bank(string fileLocation)
         {
             accounts = new List<Account>();
+            _checker = new CheckBalance();
             this.fileLocation = fileLocation;
 
             // Check if file exist
@@ -22,6 +24,7 @@ namespace ScratchBank
             {
                 ReadFromFile();
             }
+
         }
 
         public List<Account> GetAccounts()
@@ -372,16 +375,13 @@ namespace ScratchBank
                             Transfers(account, bank);
                             break;
                         case "4":
-                            CheckBalance checkbalance = new CheckBalance();
-                            checkbalance.PrintBalance(account);
+                            _checker.PrintBalance(account);
                             break;
                         case "5":
-                            CheckBalance accountdetails = new CheckBalance();
-                            accountdetails.AccountDetails(account);
+                            _checker.AccountDetails(account);
                             break;
                         case "6":
-                            CheckBalance statement = new CheckBalance();
-                            statement.PrintStatement(account);
+                            _checker.PrintStatement(account);
                             break;
                         case "7":
                             Console.WriteLine("Exit");

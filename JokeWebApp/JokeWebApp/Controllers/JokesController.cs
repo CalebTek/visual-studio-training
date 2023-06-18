@@ -29,7 +29,9 @@ namespace JokeWebApp.Controllers
         }
 
         // GET: Jokes / ShowSearchForm
+#pragma warning disable CS1998 // Async method lacks 'await' operators and will run synchronously
         public async Task<IActionResult> ShowSearchForm()
+#pragma warning restore CS1998 // Async method lacks 'await' operators and will run synchronously
         {
             return _context.Joke != null ?
                         View() :

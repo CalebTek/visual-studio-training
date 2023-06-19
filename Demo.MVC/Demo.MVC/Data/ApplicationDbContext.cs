@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
+using Demo.MVC.Models;
 
 namespace Demo.MVC.Data
 {
@@ -9,5 +10,6 @@ namespace Demo.MVC.Data
             : base(options)
         {
         }
+        public DbSet<Demo.MVC.Models.Student>? Student { get; set; }
     }
 }

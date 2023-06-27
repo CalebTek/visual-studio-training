@@ -1,0 +1,58 @@
+C:\Users\adese\Documents\Projects\ASPNETCORE\Mvc_empty\Mvc_empty\bin\Debug\net7.0\appsettings.Development.json
+C:\Users\adese\Documents\Projects\ASPNETCORE\Mvc_empty\Mvc_empty\bin\Debug\net7.0\appsettings.json
+C:\Users\adese\Documents\Projects\ASPNETCORE\Mvc_empty\Mvc_empty\bin\Debug\net7.0\Mvc_empty.exe
+C:\Users\adese\Documents\Projects\ASPNETCORE\Mvc_empty\Mvc_empty\bin\Debug\net7.0\Mvc_empty.deps.json
+C:\Users\adese\Documents\Projects\ASPNETCORE\Mvc_empty\Mvc_empty\bin\Debug\net7.0\Mvc_empty.runtimeconfig.json
+C:\Users\adese\Documents\Projects\ASPNETCORE\Mvc_empty\Mvc_empty\bin\Debug\net7.0\Mvc_empty.dll
+C:\Users\adese\Documents\Projects\ASPNETCORE\Mvc_empty\Mvc_empty\bin\Debug\net7.0\Mvc_empty.pdb
+C:\Users\adese\Documents\Projects\ASPNETCORE\Mvc_empty\Mvc_empty\obj\Debug\net7.0\Mvc_empty.csproj.AssemblyReference.cache
+C:\Users\adese\Documents\Projects\ASPNETCORE\Mvc_empty\Mvc_empty\obj\Debug\net7.0\Mvc_empty.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\adese\Documents\Projects\ASPNETCORE\Mvc_empty\Mvc_empty\obj\Debug\net7.0\Mvc_empty.AssemblyInfoInputs.cache
+C:\Users\adese\Documents\Projects\ASPNETCORE\Mvc_empty\Mvc_empty\obj\Debug\net7.0\Mvc_empty.AssemblyInfo.cs
+C:\Users\adese\Documents\Projects\ASPNETCORE\Mvc_empty\Mvc_empty\obj\Debug\net7.0\Mvc_empty.csproj.CoreCompileInputs.cache
+C:\Users\adese\Documents\Projects\ASPNETCORE\Mvc_empty\Mvc_empty\obj\Debug\net7.0\Mvc_empty.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\adese\Documents\Projects\ASPNETCORE\Mvc_empty\Mvc_empty\obj\Debug\net7.0\staticwebassets\msbuild.Mvc_empty.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\adese\Documents\Projects\ASPNETCORE\Mvc_empty\Mvc_empty\obj\Debug\net7.0\staticwebassets\msbuild.build.Mvc_empty.props
+C:\Users\adese\Documents\Projects\ASPNETCORE\Mvc_empty\Mvc_empty\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.Mvc_empty.props
+C:\Users\adese\Documents\Projects\ASPNETCORE\Mvc_empty\Mvc_empty\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.Mvc_empty.props
+C:\Users\adese\Documents\Projects\ASPNETCORE\Mvc_empty\Mvc_empty\obj\Debug\net7.0\staticwebassets.pack.json
+C:\Users\adese\Documents\Projects\ASPNETCORE\Mvc_empty\Mvc_empty\obj\Debug\net7.0\staticwebassets.build.json
+C:\Users\adese\Documents\Projects\ASPNETCORE\Mvc_empty\Mvc_empty\obj\Debug\net7.0\staticwebassets.development.json
+C:\Users\adese\Documents\Projects\ASPNETCORE\Mvc_empty\Mvc_empty\obj\Debug\net7.0\scopedcss\bundle\Mvc_empty.styles.css
+C:\Users\adese\Documents\Projects\ASPNETCORE\Mvc_empty\Mvc_empty\obj\Debug\net7.0\Mvc_empty.dll
+C:\Users\adese\Documents\Projects\ASPNETCORE\Mvc_empty\Mvc_empty\obj\Debug\net7.0\refint\Mvc_empty.dll
+C:\Users\adese\Documents\Projects\ASPNETCORE\Mvc_empty\Mvc_empty\obj\Debug\net7.0\Mvc_empty.pdb
+C:\Users\adese\Documents\Projects\ASPNETCORE\Mvc_empty\Mvc_empty\obj\Debug\net7.0\Mvc_empty.genruntimeconfig.cache
+C:\Users\adese\Documents\Projects\ASPNETCORE\Mvc_empty\Mvc_empty\obj\Debug\net7.0\ref\Mvc_empty.dll
+C:\Users\adese\Documents\Projects\ASPNETCORE\Mvc_empty\Mvc_empty\obj\Debug\net7.0\Mvc_empty.RazorAssemblyInfo.cache
+C:\Users\adese\Documents\Projects\ASPNETCORE\Mvc_empty\Mvc_empty\obj\Debug\net7.0\Mvc_empty.RazorAssemblyInfo.cs
+C:\Users\Decagon Laptop\OneDrive\Documents\Codes\visual-studio-training\Mvc_empty\Mvc_empty\bin\Debug\net7.0\appsettings.Development.json
+C:\Users\Decagon Laptop\OneDrive\Documents\Codes\visual-studio-training\Mvc_empty\Mvc_empty\bin\Debug\net7.0\appsettings.json
+C:\Users\Decagon Laptop\OneDrive\Documents\Codes\visual-studio-training\Mvc_empty\Mvc_empty\bin\Debug\net7.0\Mvc_empty.exe
+C:\Users\Decagon Laptop\OneDrive\Documents\Codes\visual-studio-training\Mvc_empty\Mvc_empty\bin\Debug\net7.0\Mvc_empty.deps.json
+C:\Users\Decagon Laptop\OneDrive\Documents\Codes\visual-studio-training\Mvc_empty\Mvc_empty\bin\Debug\net7.0\Mvc_empty.runtimeconfig.json
+C:\Users\Decagon Laptop\OneDrive\Documents\Codes\visual-studio-training\Mvc_empty\Mvc_empty\bin\Debug\net7.0\Mvc_empty.dll
+C:\Users\Decagon Laptop\OneDrive\Documents\Codes\visual-studio-training\Mvc_empty\Mvc_empty\bin\Debug\net7.0\Mvc_empty.pdb
+C:\Users\Decagon Laptop\OneDrive\Documents\Codes\visual-studio-training\Mvc_empty\Mvc_empty\obj\Debug\net7.0\Mvc_empty.csproj.AssemblyReference.cache
+C:\Users\Decagon Laptop\OneDrive\Documents\Codes\visual-studio-training\Mvc_empty\Mvc_empty\obj\Debug\net7.0\Mvc_empty.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Decagon Laptop\OneDrive\Documents\Codes\visual-studio-training\Mvc_empty\Mvc_empty\obj\Debug\net7.0\Mvc_empty.AssemblyInfoInputs.cache
+C:\Users\Decagon Laptop\OneDrive\Documents\Codes\visual-studio-training\Mvc_empty\Mvc_empty\obj\Debug\net7.0\Mvc_empty.AssemblyInfo.cs
+C:\Users\Decagon Laptop\OneDrive\Documents\Codes\visual-studio-training\Mvc_empty\Mvc_empty\obj\Debug\net7.0\Mvc_empty.csproj.CoreCompileInputs.cache
+C:\Users\Decagon Laptop\OneDrive\Documents\Codes\visual-studio-training\Mvc_empty\Mvc_empty\obj\Debug\net7.0\Mvc_empty.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Decagon Laptop\OneDrive\Documents\Codes\visual-studio-training\Mvc_empty\Mvc_empty\obj\Debug\net7.0\Mvc_empty.RazorAssemblyInfo.cache
+C:\Users\Decagon Laptop\OneDrive\Documents\Codes\visual-studio-training\Mvc_empty\Mvc_empty\obj\Debug\net7.0\Mvc_empty.RazorAssemblyInfo.cs
+C:\Users\Decagon Laptop\OneDrive\Documents\Codes\visual-studio-training\Mvc_empty\Mvc_empty\obj\Debug\net7.0\staticwebassets\msbuild.Mvc_empty.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Decagon Laptop\OneDrive\Documents\Codes\visual-studio-training\Mvc_empty\Mvc_empty\obj\Debug\net7.0\staticwebassets\msbuild.build.Mvc_empty.props
+C:\Users\Decagon Laptop\OneDrive\Documents\Codes\visual-studio-training\Mvc_empty\Mvc_empty\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.Mvc_empty.props
+C:\Users\Decagon Laptop\OneDrive\Documents\Codes\visual-studio-training\Mvc_empty\Mvc_empty\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.Mvc_empty.props
+C:\Users\Decagon Laptop\OneDrive\Documents\Codes\visual-studio-training\Mvc_empty\Mvc_empty\obj\Debug\net7.0\staticwebassets.pack.json
+C:\Users\Decagon Laptop\OneDrive\Documents\Codes\visual-studio-training\Mvc_empty\Mvc_empty\obj\Debug\net7.0\staticwebassets.build.json
+C:\Users\Decagon Laptop\OneDrive\Documents\Codes\visual-studio-training\Mvc_empty\Mvc_empty\obj\Debug\net7.0\staticwebassets.development.json
+C:\Users\Decagon Laptop\OneDrive\Documents\Codes\visual-studio-training\Mvc_empty\Mvc_empty\obj\Debug\net7.0\scopedcss\bundle\Mvc_empty.styles.css
+C:\Users\Decagon Laptop\OneDrive\Documents\Codes\visual-studio-training\Mvc_empty\Mvc_empty\obj\Debug\net7.0\Mvc_empty.dll
+C:\Users\Decagon Laptop\OneDrive\Documents\Codes\visual-studio-training\Mvc_empty\Mvc_empty\obj\Debug\net7.0\refint\Mvc_empty.dll
+C:\Users\Decagon Laptop\OneDrive\Documents\Codes\visual-studio-training\Mvc_empty\Mvc_empty\obj\Debug\net7.0\Mvc_empty.pdb
+C:\Users\Decagon Laptop\OneDrive\Documents\Codes\visual-studio-training\Mvc_empty\Mvc_empty\obj\Debug\net7.0\Mvc_empty.genruntimeconfig.cache
+C:\Users\Decagon Laptop\OneDrive\Documents\Codes\visual-studio-training\Mvc_empty\Mvc_empty\obj\Debug\net7.0\ref\Mvc_empty.dll
+C:\Users\Decagon Laptop\OneDrive\Documents\Codes\visual-studio-training\Mvc_empty\Mvc_empty\bin\Debug\net7.0\libman.json
+C:\Users\Decagon Laptop\OneDrive\Documents\Codes\visual-studio-training\Mvc_empty\Mvc_empty\bin\Debug\net7.0\Mvc_empty.staticwebassets.runtime.json
